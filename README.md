@@ -21,4 +21,4 @@ npm run dev
 
 ## License
 
-MIT © [Manuel Duran](durbonca.com)
+MIT © [Manuel Duran](https://durbonca.com)
