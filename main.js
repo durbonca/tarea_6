@@ -7,9 +7,10 @@ const getData = async () => await getAllPokemons();
 const getPokemonImgURL = async (url) => await getPokemonImg(url);
 
 getData().then((data) => {
-    let pokemonsArray = data.results.map( async (pokemon) => {
+    let pokemonsArray = data.results.map( async (pokemon, i) => {
         let pokemonImageUrl = await getPokemonImgURL(pokemon.url);
         return {
+            id: `pokemon_${i+1}`,
             name: pokemon.name,
             imgUrl: pokemonImageUrl,
         };
