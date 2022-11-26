@@ -1,23 +1,7 @@
 # tarea_6 
 > pokemon api - get
 
-## Installation
-
-```sh
-$ npm i
-```
-
-## Usage
-
-## to start the app
-```sh
-npm run start
-```
-
-## for development 
-```sh
-npm run dev
-```
+Pa correr este beta menor, tienes que darle al "npm run dev" el mio. deberia de levantar el servidor en el puerto 3000. que lacreo jajakjajkajkakja
 
 ## License
 
